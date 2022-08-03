@@ -43,7 +43,7 @@ public class Curso extends Conteudo{
         return "Curso: " +
                 getTitulo() + ", " +
                 getDescricao() +
-                ", carga horaria de " + cargaHoraria + " horas." + '\n'+
-                "*************************************";
+                ", carga horaria de " + cargaHoraria + " horas." + '\n';
+
     }
 }
